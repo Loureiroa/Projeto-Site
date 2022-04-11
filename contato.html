@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width">
+    <title> Sneaker Shop </title>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesite.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+        <div class="box"> 
+            <h1><a href="index.html"><img class="imagem-logo" src="imagens/sneaker.png" alt="imagem-logo"></h1></a>
+            <nav class="nav-header">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href=""><img class="imagem-icon" src="imagens/icon-insta.png"></a></li>
+                    <li><a href=""><img class="imagem-wpp" src="imagens/wpp icon.png"></a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main-contato">
+
+
+        <form class=formu>
+
+            <h1 class="titulo-contato">Contato</h1>
+
+		   			<label for="nomesobrenome">Nome e Sobrenome</label>
+		   			<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+		   			<label for="email">Email</label>
+		   			<input type="email" id="email"  class="input-padrao" required placeholder="seuemail@dominio.com">
+ 
+		   			<label for="telefone">Telefone</label>
+		   			<input type="tel" id="telefone"  class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+		   			<label for="mensagem">Mensagem</label>
+		   			<textarea cols="70" rows="10" id="mensagem"  class="input-padrao" required></textarea>
+
+			   			<fieldset>
+                                    <legend> Como prefere o nosso contato? </legend>
+
+                                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                                    
+
+                                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+				   				
+			   			 </fieldset>
+
+                            <label class="checkbox"><input type="checkbox" name="" checked>Gostaria de receber nossas novidades por email?</label>
+
+                            <input type="submit" value="Enviar formulario" class="enviar">
+
+                            
+            </form>                   
+
+            <aside>
+                
+                <img class="imagem-contato" src="imagens/contato.png">
+
+            </aside>
+
+
+    </main>
+    
+    <footer>
+        <img class="imagem-footer" src="imagens/footer.png" alt="imagem-rodape">
+        <p class="copyright">&copy; Copyright Sneaker Shop - 2022</p>
+    </footer>
+</body>
+
+
+</html>

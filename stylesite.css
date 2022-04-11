@@ -1,0 +1,377 @@
+/* ------CSS da Pagina principal------- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(imagens/backgroun-beige.jpg);
+}
+
+header{
+    padding: 18px;  
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.imagem-logo{
+    width: 185px;
+}
+
+.box{
+    position: relative;
+    width: 1280px;
+	margin: 0 auto;
+    height:190px;
+}
+
+.nav-header{
+    position: absolute;
+    top: 95px;
+    right: 0;
+}
+
+.nav-header li{
+    display: inline;
+    margin: 0 0 0 14px;
+}
+
+.nav-header a{
+    text-decoration:none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#30302F;
+}
+
+.nav-header a:hover {
+ color: #B18B37;
+ transition: 250ms;
+}
+
+.imagem-icon{
+    width: 24px;
+}
+.imagem-wpp{
+    width:26px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+}
+    
+.titulo{
+    font-size: 64px;
+    font-family: 'poppinsregular';
+    font-weight: bold;
+    margin-left: 35px;
+    color: #B18B37;
+}
+
+.spam-bemvindo{
+    color: black;
+}
+
+.p-index{
+
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 750px;
+    font-family:'poppinslight';
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+
+}
+
+.nav-main li{
+    display:inline;
+    margin: 0 0 0 60px;
+}
+
+.nav-main a{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid;
+    padding: 13px;
+    
+    
+}
+
+.nav-main a:hover{
+    color: #B18B37;
+    transition: 320ms;
+    box-shadow: 4px 4px 0px #B18B37;
+    
+}
+
+.spam1{
+    margin-left: 32px;
+}
+
+aside{
+    margin-left: 20px;
+}
+
+.imagem-banner2{
+
+    width: 950px;
+    border-radius: 20px;
+    margin-left: 35px;
+    box-shadow: 9px 9px 5px 5px gray;
+    margin-bottom: 70px;
+}
+
+.imagem-loja{
+    width: 780px;
+    margin-top: 80px;
+    margin-left: 2em;
+    border-radius: 15px;
+    box-shadow: 9px 9px 5px 5px gray;    
+}
+
+.formulario-main{
+    display:inline-block;
+    margin-left: 20em;
+}
+
+.titulo2{
+    font-size: 46px;
+    font-family: 'poppinsregular';
+    color: #B18B37;
+}
+
+.spam2{
+    color: #635547;
+}
+
+.form{
+    margin-left: 40px;
+}
+
+input{
+    border-radius: 10px;
+    border: solid bisque;
+}
+
+footer{
+    text-align: center;
+    padding: 90px;
+}
+
+.imagem-footer{
+    width: 185px;
+    position: relative; 
+}
+
+.copyright {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* ------CSS da pagina sobre------*/
+
+.main-sobre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+}
+.title-sobre{
+    font-size: 69px;
+    font-weight: bold;
+    font-family: 'poppinsregular';
+    
+}
+
+.main2,p{
+    font-size: 20px;
+    
+}
+
+.principal-sobre{
+    margin-bottom: 20px;
+}
+
+.p-sobre{
+    font-size: 27px;
+    font-family: 'poppinslight';
+}
+
+.running{
+    margin-left: 50px;
+    color: #B18B37;
+}
+
+.imagem-banner{
+    width: 515px;
+    margin-right: 100px;
+    float: both;
+}
+
+.mapa{
+    text-align: center;
+}
+.titulo-mapa{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 38px;
+    padding-bottom: 22px;
+    font-family: 'poppinsregular';
+    color: #635547;
+}
+
+.conteudo-mapa{
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+/* ------CSS da pagina produtos-----*/
+.titulo-produtos1{
+    text-align: center;
+    font-size: 53px;
+    font-weight: bold;
+    font-family: 'poppinsregular';
+    color: #9D7C33;
+    margin-bottom: 32px;
+}
+
+.titulo-produtos2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'poppinsregular';
+    color: #635547;
+    margin-bottom: 15px;
+
+}
+
+produtos {
+	width: 900px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 28%;
+	vertical-align: top;
+	margin: 0 1.6%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+    transition: 410ms;
+	border-radius: 13px;
+    margin-right: 4em;
+}
+
+.produtos li:hover {
+	border-color:#B18B37;
+    transition: 320ms;
+    box-shadow: 5px 5px 2px #B18B37;
+}
+
+.produto-descricao {
+	font-size: 20px;
+}
+
+.produto-preco {
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+.linha1{
+    border-color: #956B1D;
+    width: 80%;
+}
+
+.linha2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 43%;
+    border-color: #956B1D;
+
+}
+
+.imagem1{
+    width: 360px;
+}
+.imagem2{
+    width: 400px;
+}
+.imagem3{
+    width: 400px;
+}
+.imagem4{
+    width: 400px;
+}
+
+
+
+/* ------CSS da pagina contato------*/
+.main-contato{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-contato{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'poppinsregular';
+    color: #635547;
+    padding-bottom: 13px;
+}
+
+form{
+    margin: 40px 0;
+    margin-left: 8em;
+
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+  }
+
+  .input-padrao {
+	display: block;
+	margin: 0 0 18px;
+	padding: 10px 25px;
+	width: 80%;
+     }
+
+ .checkbox {
+        margin: 20px 0;
+    }
+    
+ .enviar {
+     width:40%;
+    padding: 15px 0;
+    background: #B18B37;
+     color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 9px;
+    transition: 1s all;
+    cursor: pointer;
+    }
+    
+  .enviar:hover {
+     background-color: #F19F4F;
+     transform: scale(1.05);
+    }
+
+.imagem-contato{
+    margin-top: 60px;
+    margin-left: 5em;
+    width: 720px;
+    border-radius: 20px;
+}
